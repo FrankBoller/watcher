@@ -1,38 +1,126 @@
-## Welcome to GitHub Pages
+## Welcome to Watcher
 
-You can use the [editor on GitHub](https://github.com/FrankBoller/watcher/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a place for **spectators**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* intended to showcase technology implementation samples, implementations, bugs, links and documentation
 
-### Markdown
+### Philosopy, Frameworks, Libraries, Code Tools and Artifacts
+* Agile
+* DevOps
+* Fabric8
+* maven
+* jenkins
+* jmh
+* Slack
+* Virtualbox
+* Docker
+* Vagrant
+* Polymer
+* MindMup
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+----
 
-```markdown
-Syntax highlighted code block
+#### Agile
+time boxed, iterative approach to software delivery:
+[Manifesto for Agile Software Development](http://agilemanifesto.org/) and [Principles behind the Agile Manifesto](http://agilemanifesto.org/principles.html)
 
-# Header 1
-## Header 2
-### Header 3
+* We are uncovering better ways of developing
+software by doing it and helping others do it.
 
-- Bulleted
-- List
+#### DevOps
+set of practices:
+(DevOps - Wikipedia)[https://en.wikipedia.org/wiki/DevOps]
 
-1. Numbered
-2. List
+* DevOps (a clipped compound of "software DEVelopment" and "information technology OPerationS") is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.
 
-**Bold** and _Italic_ and `Code` text
+#### Fabric8
+end to end development platform:
+[fabric8: open source Integrated Development Platform for Kubernetes](https://fabric8.io/)
 
-[Link](url) and ![Image](src)
-```
+* fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via [Continuous Delivery pipelines](http://fabric8.io/guide/cdelivery.html) then [run and manage them](http://fabric8.io/guide/fabric8DevOps.html) with Continuous Improvement and [ChatOps](http://fabric8.io/guide/chat.html)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### maven
+project management:
+[Code Tools: maven](https://maven.apache.org/)  
 
-### Jekyll Themes
+* Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FrankBoller/watcher/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### jenkins
+open source automation server:
+[Jenkins, Build great things at any scale](https://jenkins.io/)
 
-### Support or Contact
+* The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-...
+also:
+[Jenkins (software)](https://goo.gl/W5aYnN)
+
+* jenkins.io. Jenkins is an open source automation server written in Java. The project was forked from Hudson after a dispute with Oracle. ... It is a server-based system running in a servlet container such as Apache Tomcat.
+
+#### jmh
+test harness:
+[Code Tools: jmh](http://openjdk.java.net/projects/code-tools/jmh/) 
+
+* JMH is a Java harness for building, running, and analysing nano/micro/milli/macro benchmarks written in Java and other languages targetting the JVM.
+
+also:
+[Java Performance Tuning Guide](http://java-performance.info/jmh/)
+
+* various tips on improving performance of your Java code
+
+#### Slack
+team collaboration tool:
+[Slack: Where work happens](https://slack.com/)
+
+* Whatever work means for you, Slack brings all the pieces and people you need together so you can actually get things done.
+
+also:
+[Slack (software)](https://goo.gl/tGzeQO)
+
+* slack.com. Slack is a cloud-based team collaboration tool. The name is an acronym for "Searchable Log of All Conversation and Knowledge".
+
+#### Virtualbox
+software virtualization package:
+[Oracle VM VirtualBox](https://www.virtualbox.org/)
+
+* VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 2. See "About VirtualBox" for an introduction.
+
+also:
+[What is VirtualBox?](https://www.computerhope.com/jargon/v/virtualbox.htm)
+
+* A VirtualBox or VB is a software virtualization package that installs on an operating system as an application. VirtualBox allows additional operating systems to be installed on it, as a Guest OS, and run in a virtual environment. In 2010, VirtualBox was the most popular virtualization software application.
+
+#### Docker
+open platform for developers and sysadmins:
+[Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/what-docker)
+
+* Docker is the world’s leading software container platform. Developers use Docker to eliminate "works on my machine" problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
+
+#### Vagrant
+open-source software product:
+[Introduction to Vagrant](https://www.vagrantup.com/intro/index.html)
+
+* Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
+
+#### Polymer
+library for creating Web Components:
+[Welcome - Polymer Project](https://www.polymer-project.org/)
+
+* Unlock the Power of Web Components. Polymer is a JavaScript library that helps you create custom reusable HTML elements, and use them to build performant, maintainable apps.
+
+also:
+[Here's the difference between Polymer and Angular](http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/)
+
+* Angular is a complete framework for building webapps, whereas Polymer is a library for creating Web Components. Those components, however, can then be used to build a webapp. Angular has high-level APIs for things like services, routing, server communication and the like.
+
+#### MindMup
+mind mapping:
+(MindMup 2)[https://drive.mindmup.com/]
+
+* Zero-friction mind mapping, tightly integrated with Google Apps
+
+also:
+[Mind map](https://en.wikipedia.org/wiki/Mind_map)
+
+* A mind map is hierarchical and shows relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added.
+
+----
