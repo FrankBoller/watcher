@@ -12,7 +12,7 @@ also:
 details:
 
     | goal                          | command                                                        | 
-    | ---                           | ---                                                            | 
+    | ----------------------------- | -------------------------------------------------------------- | 
     | build                         | mvn clean package                                              | 
     | jmh help                      | java -jar target/benchmarks.jar -h                             | 
     | jmh list tests                | java -jar target/benchmarks.jar -l                             | 
