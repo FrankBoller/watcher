@@ -28,6 +28,8 @@ time boxed, iterative approach to software delivery:
 * We are uncovering better ways of developing
 software by doing it and helping others do it.
 
+agile approach
+----
 ![agileApproach.jpg](/images/agileApproach.jpg "agile Approach")
 
 #### DevOps
@@ -87,6 +89,7 @@ also:
 * In software engineering, behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD). ... The tools serve to add automation to the ubiquitous language that is a central theme of BDD.
 
 development Methodology
+----
 ![devMethodology.png](/images/devMethodology.png "development Methodology")
  
 
@@ -147,6 +150,7 @@ also:
 * A mind map is hierarchical and shows relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added.
 
 start a new project: 
+----
 ![newProjectMup.png](/images/newProjectMup.png "new ProjectMup")
 ----
 
