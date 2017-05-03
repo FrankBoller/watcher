@@ -9,12 +9,14 @@ This is a place for **spectators**
 * DevOps
 * Fabric8
 * maven
+* jenkins
 * jmh
 * Slack
 * Virtualbox
 * Docker
 * Vagrant
 * Polymer
+* MindMup
 
 ----
 
@@ -42,6 +44,17 @@ project management:
 [Code Tools: maven](https://maven.apache.org/)  
 
 * Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+
+#### jenkins
+open source automation server:
+[Jenkins, Build great things at any scale](https://jenkins.io/)
+
+* The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project.
+
+also:
+[Jenkins (software)](https://goo.gl/W5aYnN)
+
+* jenkins.io. Jenkins is an open source automation server written in Java. The project was forked from Hudson after a dispute with Oracle. ... It is a server-based system running in a servlet container such as Apache Tomcat.
 
 #### jmh
 test harness:
@@ -98,5 +111,16 @@ also:
 [Here's the difference between Polymer and Angular](http://www.binpress.com/blog/2014/06/26/polymer-vs-angular/)
 
 * Angular is a complete framework for building webapps, whereas Polymer is a library for creating Web Components. Those components, however, can then be used to build a webapp. Angular has high-level APIs for things like services, routing, server communication and the like.
+
+#### MindMup
+mind mapping:
+(MindMup 2)[https://drive.mindmup.com/]
+
+* Zero-friction mind mapping, tightly integrated with Google Apps
+
+also:
+[Mind map](https://en.wikipedia.org/wiki/Mind_map)
+
+* A mind map is hierarchical and shows relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added.
 
 ----
