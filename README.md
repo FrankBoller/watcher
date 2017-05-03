@@ -27,6 +27,8 @@ time boxed, iterative approach to software delivery:
 * We are uncovering better ways of developing
 software by doing it and helping others do it.
 
+![agileApproach.jpg]({{ site.baseurl }}/images/agileApproach.jpg "an image title")
+
 #### DevOps
 set of practices:
 (DevOps - Wikipedia)[https://en.wikipedia.org/wiki/DevOps]
@@ -93,7 +95,7 @@ also:
 open platform for developers and sysadmins:
 [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/what-docker)
 
-* Docker is the worldâ€™s leading software container platform. Developers use Docker to eliminate "works on my machine" problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
+* Docker is the world’s leading software container platform. Developers use Docker to eliminate "works on my machine" problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
 
 #### Vagrant
 open-source software product:
@@ -124,3 +126,4 @@ also:
 * A mind map is hierarchical and shows relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added.
 
 ----
+
