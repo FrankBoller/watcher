@@ -11,14 +11,14 @@ also:
 
 details:
 
-    | goal                          | command                                                        | 
-    | ----------------------------- | -------------------------------------------------------------- | 
-    | build                         | mvn clean package                                              | 
-    | jmh help                      | java -jar target/benchmarks.jar -h                             | 
-    | jmh list tests                | java -jar target/benchmarks.jar -l                             | 
-    | jmh list subset tests         | java -jar target/benchmarks.jar -l {subset}                    | 
-    | jmh test run all (with flags) | java -jar target/benchmarks.jar -f 1 -wi 3 -i 2 -tu s          | 
-    | jmh test run one (with flags) | java -jar target/benchmarks.jar -f 1 -wi 3 -i 2 -tu s {subset} | 
+| goal                          | command                                                        | 
+| ----------------------------- | -------------------------------------------------------------- | 
+| build                         | mvn clean package                                              | 
+| jmh help                      | java -jar target/benchmarks.jar -h                             | 
+| jmh list tests                | java -jar target/benchmarks.jar -l                             | 
+| jmh list subset tests         | java -jar target/benchmarks.jar -l {subset}                    | 
+| jmh test run all (with flags) | java -jar target/benchmarks.jar -f 1 -wi 3 -i 2 -tu s          | 
+| jmh test run one (with flags) | java -jar target/benchmarks.jar -f 1 -wi 3 -i 2 -tu s {subset} | 
 
 given a flag "-l":    
 *$ java -jar target/benchmarks.jar -l*  
