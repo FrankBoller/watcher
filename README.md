@@ -1,10 +1,20 @@
 ## Welcome to Watcher
 
-This is a place for spectators
+This is a place for **spectators**
 
 * it is a simple project intended to showcase technology implementation samples, implementations, bugs, links and documentation
 
-### Philosopy, Code Tools, Frameworks, Artifacts and Plugins
+### Philosopy, Frameworks, Libraries, Code Tools and Artifacts
+* Agile
+* DevOps
+* Fabric8
+* maven
+* jmh
+* Slack
+* Virtualbox
+* Docker
+* Vagrant
+* Polymer
 
 #### Agile
 time boxed, iterative approach to software delivery philosopy:
@@ -13,6 +23,18 @@ time boxed, iterative approach to software delivery philosopy:
 * We are uncovering better ways of developing
 software by doing it and helping others do it.
 Through this work we have come to value: 
+
+#### DevOps
+set of practices:
+(DevOps - Wikipedia)[https://en.wikipedia.org/wiki/DevOps]
+
+* DevOps (a clipped compound of "software DEVelopment" and "information technology OPerationS") is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.
+
+#### Fabric8
+end to end development platform:
+[fabric8: open source Integrated Development Platform for Kubernetes](https://fabric8.io/)
+
+* fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via [Continuous Delivery pipelines](http://fabric8.io/guide/cdelivery.html) then [run and manage them]()http://fabric8.io/guide/fabric8DevOps.html with Continuous Improvement and [ChatOps](http://fabric8.io/guide/chat.html)
 
 #### maven
 project management:
@@ -31,21 +53,33 @@ also:
 
 * various tips on improving performance of your Java code
 
-#### DevOps
-set of practices:
-(DevOps - Wikipedia)[https://en.wikipedia.org/wiki/DevOps]
+#### Slack
+team collaboration tool:
+[Slack: Where work happens](https://slack.com/)
 
-* DevOps (a clipped compound of "software DEVelopment" and "information technology OPerationS") is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.
+* Whatever work means for you, Slack brings all the pieces and people you need together so you can actually get things done.
+
+also:
+[Slack (software)](https://goo.gl/tGzeQO)
+
+* slack.com. Slack is a cloud-based team collaboration tool. The name is an acronym for "Searchable Log of All Conversation and Knowledge".
+
+#### Virtualbox
+software virtualization package:
+[Oracle VM VirtualBox](https://www.virtualbox.org/)
+
+* VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use. Not only is VirtualBox an extremely feature rich, high performance product for enterprise customers, it is also the only professional solution that is freely available as Open Source Software under the terms of the GNU General Public License (GPL) version 2. See "About VirtualBox" for an introduction.
+
+also:
+[What is VirtualBox?](https://www.computerhope.com/jargon/v/virtualbox.htm)
+
+* A VirtualBox or VB is a software virtualization package that installs on an operating system as an application. VirtualBox allows additional operating systems to be installed on it, as a Guest OS, and run in a virtual environment. In 2010, VirtualBox was the most popular virtualization software application.
 
 #### Docker
 open platform for developers and sysadmins:
 [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/what-docker)
 
 * Docker is the world’s leading software container platform. Developers use Docker to eliminate "works on my machine" problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
-
-#### Fabric8
-end to end development platform:
-[fabric8: open source Integrated Development Platform for Kubernetes](https://fabric8.io/)
 
 #### Vagrant
 open-source software product:
@@ -65,4 +99,3 @@ also:
 * Angular is a complete framework for building webapps, whereas Polymer is a library for creating Web Components. Those components, however, can then be used to build a webapp. Angular has high-level APIs for things like services, routing, server communication and the like.
 
 # ######################################
-
