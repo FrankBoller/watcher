@@ -22,7 +22,8 @@ details:
 
 given a flag "-l":    
 $ java -jar target/benchmarks.jar -l  
-produces:  
+produces:
+
     Benchmarks:  
     com.stuff2ponder.Factorial_fjb04.evalLoopEmpty  
     com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop  
@@ -33,7 +34,8 @@ produces:
 
 jmh given a flag "-l 04":  
 $ java -jar target/benchmarks.jar -l 04  
-produces:  
+produces:
+
     Benchmarks:  
     com.stuff2ponder.Factorial_fjb04.evalLoopEmpty  
     com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop  
@@ -45,9 +47,10 @@ produced file: [Factorial_fjb04.log](https://github.com/FrankBoller/watcher/blob
 
 given:  
 $ tail -22 Factorial_fjb04.log  
-produced:  
-    # Run complete. Total time: 00:01:39  
+produced:
 
+    # Run complete. Total time: 00:01:39  
+    
     Benchmark                                (baseLong)   Mode  Cnt           Score   Error  Units  
     Factorial_fjb04.evalLoopEmpty                    19  thrpt    2  1690500347.123          ops/s  
     Factorial_fjb04.evalLoopEmpty                    20  thrpt    2  1689441185.351          ops/s  
