@@ -2,7 +2,7 @@
 
 This is a place for **spectators**
 
-* it is a simple project intended to showcase technology implementation samples, implementations, bugs, links and documentation
+* intended to showcase technology implementation samples, implementations, bugs, links and documentation
 
 ### Philosopy, Frameworks, Libraries, Code Tools and Artifacts
 * Agile
@@ -15,6 +15,8 @@ This is a place for **spectators**
 * Docker
 * Vagrant
 * Polymer
+
+----
 
 #### Agile
 time boxed, iterative approach to software delivery philosopy:
@@ -98,4 +100,4 @@ also:
 
 * Angular is a complete framework for building webapps, whereas Polymer is a library for creating Web Components. Those components, however, can then be used to build a webapp. Angular has high-level APIs for things like services, routing, server communication and the like.
 
-# ######################################
+----
