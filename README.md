@@ -19,12 +19,11 @@ This is a place for **spectators**
 ----
 
 #### Agile
-time boxed, iterative approach to software delivery philosopy:
+time boxed, iterative approach to software delivery:
 [Manifesto for Agile Software Development](http://agilemanifesto.org/) and [Principles behind the Agile Manifesto](http://agilemanifesto.org/principles.html)
 
 * We are uncovering better ways of developing
 software by doing it and helping others do it.
-Through this work we have come to value: 
 
 #### DevOps
 set of practices:
@@ -36,7 +35,7 @@ set of practices:
 end to end development platform:
 [fabric8: open source Integrated Development Platform for Kubernetes](https://fabric8.io/)
 
-* fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via [Continuous Delivery pipelines](http://fabric8.io/guide/cdelivery.html) then [run and manage them]()http://fabric8.io/guide/fabric8DevOps.html with Continuous Improvement and [ChatOps](http://fabric8.io/guide/chat.html)
+* fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via [Continuous Delivery pipelines](http://fabric8.io/guide/cdelivery.html) then [run and manage them](http://fabric8.io/guide/fabric8DevOps.html) with Continuous Improvement and [ChatOps](http://fabric8.io/guide/chat.html)
 
 #### maven
 project management:
