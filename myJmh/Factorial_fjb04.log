@@ -1,0 +1,471 @@
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopEmpty
+# Parameters: (baseLong = 19)
+
+# Run progress: 0.00% complete, ETA 00:01:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 1688115430.371 ops/s
+# Warmup Iteration   2: 1722592529.325 ops/s
+# Warmup Iteration   3: 1692108196.190 ops/s
+Iteration   1: 1691145090.986 ops/s
+Iteration   2: 1689855603.260 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopEmpty":
+  1690500347.123 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopEmpty
+# Parameters: (baseLong = 20)
+
+# Run progress: 5.56% complete, ETA 00:01:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 1688957472.782 ops/s
+# Warmup Iteration   2: 1721653849.036 ops/s
+# Warmup Iteration   3: 1686963539.014 ops/s
+Iteration   1: 1690158092.895 ops/s
+Iteration   2: 1688724277.808 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopEmpty":
+  1689441185.351 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopEmpty
+# Parameters: (baseLong = 21)
+
+# Run progress: 11.11% complete, ETA 00:01:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 1688884288.078 ops/s
+# Warmup Iteration   2: 1721970501.517 ops/s
+# Warmup Iteration   3: 1640661174.446 ops/s
+Iteration   1: 1640858364.944 ops/s
+Iteration   2: 1639317548.467 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopEmpty":
+  1640087956.706 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopEmpty
+# Parameters: (baseLong = 55)
+
+# Run progress: 16.67% complete, ETA 00:01:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 1690210262.919 ops/s
+# Warmup Iteration   2: 1721874318.542 ops/s
+# Warmup Iteration   3: 1692038089.613 ops/s
+Iteration   1: 1690168660.846 ops/s
+Iteration   2: 1689309706.719 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopEmpty":
+  1689739183.782 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopEmpty
+# Parameters: (baseLong = 56)
+
+# Run progress: 22.22% complete, ETA 00:01:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 1657888620.919 ops/s
+# Warmup Iteration   2: 1725302354.399 ops/s
+# Warmup Iteration   3: 1691644691.947 ops/s
+Iteration   1: 1691094301.333 ops/s
+Iteration   2: 1690421273.732 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopEmpty":
+  1690757787.532 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopEmpty
+# Parameters: (baseLong = 57)
+
+# Run progress: 27.78% complete, ETA 00:01:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 1690289160.781 ops/s
+# Warmup Iteration   2: 1722164960.136 ops/s
+# Warmup Iteration   3: 1689572146.789 ops/s
+Iteration   1: 1692254154.287 ops/s
+Iteration   2: 1691375849.525 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopEmpty":
+  1691815001.906 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop
+# Parameters: (baseLong = 19)
+
+# Run progress: 33.33% complete, ETA 00:01:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 1368889.085 ops/s
+# Warmup Iteration   2: 1492694.646 ops/s
+# Warmup Iteration   3: 1631838.875 ops/s
+Iteration   1: 1634744.939 ops/s
+Iteration   2: 1631353.613 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop":
+  1633049.276 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop
+# Parameters: (baseLong = 20)
+
+# Run progress: 38.89% complete, ETA 00:01:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 1279174.226 ops/s
+# Warmup Iteration   2: 1394289.590 ops/s
+# Warmup Iteration   3: 1526710.400 ops/s
+Iteration   1: 1524960.770 ops/s
+Iteration   2: 1523053.888 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop":
+  1524007.329 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop
+# Parameters: (baseLong = 21)
+
+# Run progress: 44.44% complete, ETA 00:00:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 621652.033 ops/s
+# Warmup Iteration   2: 702289.986 ops/s
+# Warmup Iteration   3: 705592.364 ops/s
+Iteration   1: 705769.233 ops/s
+Iteration   2: 704941.120 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop":
+  705355.177 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop
+# Parameters: (baseLong = 55)
+
+# Run progress: 50.00% complete, ETA 00:00:49
+# Fork: 1 of 1
+# Warmup Iteration   1: 234758.269 ops/s
+# Warmup Iteration   2: 295914.388 ops/s
+# Warmup Iteration   3: 296022.265 ops/s
+Iteration   1: 295409.640 ops/s
+Iteration   2: 295195.548 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop":
+  295302.594 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop
+# Parameters: (baseLong = 56)
+
+# Run progress: 55.56% complete, ETA 00:00:44
+# Fork: 1 of 1
+# Warmup Iteration   1: 277467.886 ops/s
+# Warmup Iteration   2: 314139.365 ops/s
+# Warmup Iteration   3: 344689.594 ops/s
+Iteration   1: 343836.255 ops/s
+Iteration   2: 343981.100 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop":
+  343908.677 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop
+# Parameters: (baseLong = 57)
+
+# Run progress: 61.11% complete, ETA 00:00:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 282446.839 ops/s
+# Warmup Iteration   2: 323148.304 ops/s
+# Warmup Iteration   3: 353153.939 ops/s
+Iteration   1: 352929.793 ops/s
+Iteration   2: 352726.723 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialLoop":
+  352828.258 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream
+# Parameters: (baseLong = 19)
+
+# Run progress: 66.67% complete, ETA 00:00:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 11977813.649 ops/s
+# Warmup Iteration   2: 12094110.428 ops/s
+# Warmup Iteration   3: 12875677.596 ops/s
+Iteration   1: 12872213.024 ops/s
+Iteration   2: 12856631.652 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream":
+  12864422.338 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream
+# Parameters: (baseLong = 20)
+
+# Run progress: 72.22% complete, ETA 00:00:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 11470684.843 ops/s
+# Warmup Iteration   2: 12305449.264 ops/s
+# Warmup Iteration   3: 12280715.553 ops/s
+Iteration   1: 12294265.112 ops/s
+Iteration   2: 12283268.046 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream":
+  12288766.579 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream
+# Parameters: (baseLong = 21)
+
+# Run progress: 77.78% complete, ETA 00:00:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 7399305.374 ops/s
+# Warmup Iteration   2: 8456128.754 ops/s
+# Warmup Iteration   3: 8563376.815 ops/s
+Iteration   1: 8559314.037 ops/s
+Iteration   2: 8522133.646 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream":
+  8540723.841 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream
+# Parameters: (baseLong = 55)
+
+# Run progress: 83.33% complete, ETA 00:00:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 3481439.049 ops/s
+# Warmup Iteration   2: 3658310.034 ops/s
+# Warmup Iteration   3: 3682025.732 ops/s
+Iteration   1: 3709194.588 ops/s
+Iteration   2: 3675068.999 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream":
+  3692131.793 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream
+# Parameters: (baseLong = 56)
+
+# Run progress: 88.89% complete, ETA 00:00:11
+# Fork: 1 of 1
+# Warmup Iteration   1: 3198224.223 ops/s
+# Warmup Iteration   2: 3336656.420 ops/s
+# Warmup Iteration   3: 3607813.963 ops/s
+Iteration   1: 3620940.343 ops/s
+Iteration   2: 3613725.578 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream":
+  3617332.960 ops/s
+
+
+# JMH 1.18 (released 51 days ago)
+# VM version: JDK 1.8.0_131, VM 25.131-b11
+# VM invoker: C:\Program Files\Java\jre1.8.0_131\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 1 s each
+# Measurement: 2 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream
+# Parameters: (baseLong = 57)
+
+# Run progress: 94.44% complete, ETA 00:00:05
+# Fork: 1 of 1
+# Warmup Iteration   1: 3390705.851 ops/s
+# Warmup Iteration   2: 3503695.686 ops/s
+# Warmup Iteration   3: 3564037.873 ops/s
+Iteration   1: 3599982.106 ops/s
+Iteration   2: 3564998.204 ops/s
+
+
+Result "com.stuff2ponder.Factorial_fjb04.evalLoopFactorialStream":
+  3582490.155 ops/s
+
+
+# Run complete. Total time: 00:01:39
+
+Benchmark                                (baseLong)   Mode  Cnt           Score   Error  Units
+Factorial_fjb04.evalLoopEmpty                    19  thrpt    2  1690500347.123          ops/s
+Factorial_fjb04.evalLoopEmpty                    20  thrpt    2  1689441185.351          ops/s
+Factorial_fjb04.evalLoopEmpty                    21  thrpt    2  1640087956.706          ops/s
+Factorial_fjb04.evalLoopEmpty                    55  thrpt    2  1689739183.782          ops/s
+Factorial_fjb04.evalLoopEmpty                    56  thrpt    2  1690757787.532          ops/s
+Factorial_fjb04.evalLoopEmpty                    57  thrpt    2  1691815001.906          ops/s
+Factorial_fjb04.evalLoopFactorialLoop            19  thrpt    2     1633049.276          ops/s
+Factorial_fjb04.evalLoopFactorialLoop            20  thrpt    2     1524007.329          ops/s
+Factorial_fjb04.evalLoopFactorialLoop            21  thrpt    2      705355.177          ops/s
+Factorial_fjb04.evalLoopFactorialLoop            55  thrpt    2      295302.594          ops/s
+Factorial_fjb04.evalLoopFactorialLoop            56  thrpt    2      343908.677          ops/s
+Factorial_fjb04.evalLoopFactorialLoop            57  thrpt    2      352828.258          ops/s
+Factorial_fjb04.evalLoopFactorialStream          19  thrpt    2    12864422.338          ops/s
+Factorial_fjb04.evalLoopFactorialStream          20  thrpt    2    12288766.579          ops/s
+Factorial_fjb04.evalLoopFactorialStream          21  thrpt    2     8540723.841          ops/s
+Factorial_fjb04.evalLoopFactorialStream          55  thrpt    2     3692131.793          ops/s
+Factorial_fjb04.evalLoopFactorialStream          56  thrpt    2     3617332.960          ops/s
+Factorial_fjb04.evalLoopFactorialStream          57  thrpt    2     3582490.155          ops/s
