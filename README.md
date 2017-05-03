@@ -11,6 +11,7 @@ This is a place for **spectators**
 * maven
 * jenkins
 * jmh
+* Arquillian 
 * Slack
 * Virtualbox
 * Docker
@@ -69,6 +70,26 @@ also:
 
 * various tips on improving performance of your Java code
 
+#### Arquillian 
+integration and functional testing platform:
+[Dan Allen on Arquillian Testing Framework](https://www.infoq.com/articles/dan-allen-arquillian-framework)
+
+* Arquillian is an integration and functional testing platform that can be used for Java middleware testing. With the main goal of making integration (and functional) tests as simple to write as unit tests, it brings the tests to the runtime environment, freeing developers from managing the runtime from within the test.
+
+also:
+[Arquillian · Write Real Tests](http://arquillian.org/)
+
+* So you can rule your code. Not the bugs.  No more mocks. No more container lifecycle and deployment hassles. Just real tests!
+
+also:
+[BDD Behavior-driven development](https://en.wikipedia.org/wiki/Behavior-driven_development)
+
+* In software engineering, behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD). ... The tools serve to add automation to the ubiquitous language that is a central theme of BDD.
+
+development Methodology
+![devMethodology.png](/images/devMethodology.png "development Methodology")
+ 
+
 #### Slack
 team collaboration tool:
 [Slack: Where work happens](https://slack.com/)
@@ -125,10 +146,8 @@ also:
 
 * A mind map is hierarchical and shows relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added.
 
-----
+start a new project: 
 ![newProjectMup.png](/images/newProjectMup.png "new ProjectMup")
-----
-![devMethodology.png](/images/devMethodology.png "development Methodology")
 ----
 
 
