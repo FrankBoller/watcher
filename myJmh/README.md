@@ -55,45 +55,45 @@ given:
 produced:
 
     Result "com.stuff2ponder.Factorial_fjb04.evalFactorialLongStreamFallbackDouble":
-      0.875 ±(99.9%) 0.009 ops/us [Average]
+      0.875 Â±(99.9%) 0.009 ops/us [Average]
       (min, avg, max) = (0.872, 0.875, 0.878), stdev = 0.002
       CI (99.9%): [0.866, 0.885] (assumes normal distribution)
 
     # Run complete. Total time: 00:04:33
 
     Benchmark                                              (baseLong)   Mode  Cnt     Score    Error   Units
-    Factorial_fjb04.evalEmptyLoop                                   2  thrpt    5  1689.905 ±  8.597  ops/us
-    Factorial_fjb04.evalEmptyLoop                                  19  thrpt    5  1691.440 ±  2.703  ops/us
-    Factorial_fjb04.evalEmptyLoop                                  20  thrpt    5  1691.224 ±  4.018  ops/us
-    Factorial_fjb04.evalEmptyLoop                                  21  thrpt    5  1690.945 ±  5.059  ops/us
-    Factorial_fjb04.evalEmptyLoop                                  32  thrpt    5  1690.605 ±  2.132  ops/us
-    Factorial_fjb04.evalEmptyLoop                                  64  thrpt    5  1690.599 ±  6.139  ops/us
-    Factorial_fjb04.evalEmptyLoop                                 128  thrpt    5  1532.611 ±  9.029  ops/us
-    Factorial_fjb04.evalEmptyLoop                                 256  thrpt    5  1639.700 ±  5.203  ops/us
-    Factorial_fjb04.evalFactorialAsLog10                            2  thrpt    5     4.327 ±  0.018  ops/us
-    Factorial_fjb04.evalFactorialAsLog10                           19  thrpt    5     0.433 ±  0.002  ops/us
-    Factorial_fjb04.evalFactorialAsLog10                           20  thrpt    5     0.420 ±  0.002  ops/us
-    Factorial_fjb04.evalFactorialAsLog10                           21  thrpt    5     0.441 ±  0.005  ops/us
-    Factorial_fjb04.evalFactorialAsLog10                           32  thrpt    5     0.260 ±  0.003  ops/us
-    Factorial_fjb04.evalFactorialAsLog10                           64  thrpt    5     0.157 ±  0.001  ops/us
-    Factorial_fjb04.evalFactorialAsLog10                          128  thrpt    5     0.073 ±  0.001  ops/us
-    Factorial_fjb04.evalFactorialAsLog10                          256  thrpt    5     0.037 ±  0.001  ops/us
-    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10           2  thrpt    5    34.283 ±  0.436  ops/us
-    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          19  thrpt    5     1.785 ±  0.038  ops/us
-    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          20  thrpt    5     1.644 ±  0.033  ops/us
-    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          21  thrpt    5     0.441 ±  0.001  ops/us
-    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          32  thrpt    5     0.261 ±  0.001  ops/us
-    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          64  thrpt    5     0.157 ±  0.001  ops/us
-    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10         128  thrpt    5     0.073 ±  0.001  ops/us
-    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10         256  thrpt    5     0.037 ±  0.001  ops/us
-    Factorial_fjb04.evalFactorialLongStreamFallbackDouble           2  thrpt    5    52.321 ±  1.101  ops/us
-    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          19  thrpt    5    12.779 ±  0.218  ops/us
-    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          20  thrpt    5    12.318 ±  0.034  ops/us
-    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          21  thrpt    5     8.435 ±  0.114  ops/us
-    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          32  thrpt    5     6.074 ±  0.053  ops/us
-    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          64  thrpt    5     3.197 ±  0.035  ops/us
-    Factorial_fjb04.evalFactorialLongStreamFallbackDouble         128  thrpt    5     1.688 ±  0.034  ops/us
-    Factorial_fjb04.evalFactorialLongStreamFallbackDouble         256  thrpt    5     0.875 ±  0.009  ops/us
+    Factorial_fjb04.evalEmptyLoop                                   2  thrpt    5  1689.905 Â±  8.597  ops/us
+    Factorial_fjb04.evalEmptyLoop                                  19  thrpt    5  1691.440 Â±  2.703  ops/us
+    Factorial_fjb04.evalEmptyLoop                                  20  thrpt    5  1691.224 Â±  4.018  ops/us
+    Factorial_fjb04.evalEmptyLoop                                  21  thrpt    5  1690.945 Â±  5.059  ops/us
+    Factorial_fjb04.evalEmptyLoop                                  32  thrpt    5  1690.605 Â±  2.132  ops/us
+    Factorial_fjb04.evalEmptyLoop                                  64  thrpt    5  1690.599 Â±  6.139  ops/us
+    Factorial_fjb04.evalEmptyLoop                                 128  thrpt    5  1532.611 Â±  9.029  ops/us
+    Factorial_fjb04.evalEmptyLoop                                 256  thrpt    5  1639.700 Â±  5.203  ops/us
+    Factorial_fjb04.evalFactorialAsLog10                            2  thrpt    5     4.327 Â±  0.018  ops/us
+    Factorial_fjb04.evalFactorialAsLog10                           19  thrpt    5     0.433 Â±  0.002  ops/us
+    Factorial_fjb04.evalFactorialAsLog10                           20  thrpt    5     0.420 Â±  0.002  ops/us
+    Factorial_fjb04.evalFactorialAsLog10                           21  thrpt    5     0.441 Â±  0.005  ops/us
+    Factorial_fjb04.evalFactorialAsLog10                           32  thrpt    5     0.260 Â±  0.003  ops/us
+    Factorial_fjb04.evalFactorialAsLog10                           64  thrpt    5     0.157 Â±  0.001  ops/us
+    Factorial_fjb04.evalFactorialAsLog10                          128  thrpt    5     0.073 Â±  0.001  ops/us
+    Factorial_fjb04.evalFactorialAsLog10                          256  thrpt    5     0.037 Â±  0.001  ops/us
+    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10           2  thrpt    5    34.283 Â±  0.436  ops/us
+    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          19  thrpt    5     1.785 Â±  0.038  ops/us
+    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          20  thrpt    5     1.644 Â±  0.033  ops/us
+    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          21  thrpt    5     0.441 Â±  0.001  ops/us
+    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          32  thrpt    5     0.261 Â±  0.001  ops/us
+    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10          64  thrpt    5     0.157 Â±  0.001  ops/us
+    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10         128  thrpt    5     0.073 Â±  0.001  ops/us
+    Factorial_fjb04.evalFactorialBigLongLoopFallbackLog10         256  thrpt    5     0.037 Â±  0.001  ops/us
+    Factorial_fjb04.evalFactorialLongStreamFallbackDouble           2  thrpt    5    52.321 Â±  1.101  ops/us
+    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          19  thrpt    5    12.779 Â±  0.218  ops/us
+    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          20  thrpt    5    12.318 Â±  0.034  ops/us
+    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          21  thrpt    5     8.435 Â±  0.114  ops/us
+    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          32  thrpt    5     6.074 Â±  0.053  ops/us
+    Factorial_fjb04.evalFactorialLongStreamFallbackDouble          64  thrpt    5     3.197 Â±  0.035  ops/us
+    Factorial_fjb04.evalFactorialLongStreamFallbackDouble         128  thrpt    5     1.688 Â±  0.034  ops/us
+    Factorial_fjb04.evalFactorialLongStreamFallbackDouble         256  thrpt    5     0.875 Â±  0.009  ops/us
 
 ----
-![Factorial_fjb04.png](/images/Factorial_fjb04.png "Factorial_fjb04.png")
+![Factorial_fjb04.png](/myJmh/images/Factorial_fjb04.png "Factorial_fjb04.png")
