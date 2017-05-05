@@ -140,7 +140,7 @@ also:
 
 #### MindMup
 mind mapping:
-[MindMup 2](https://drive.mindmup.com/
+[MindMup 2](https://drive.mindmup.com/)
 
 * Zero-friction mind mapping, tightly integrated with Google Apps
 
