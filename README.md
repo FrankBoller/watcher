@@ -79,7 +79,7 @@ integration and functional testing platform:
 * Arquillian is an integration and functional testing platform that can be used for Java middleware testing. With the main goal of making integration (and functional) tests as simple to write as unit tests, it brings the tests to the runtime environment, freeing developers from managing the runtime from within the test.
 
 also:
-[Arquillian ∑ Write Real Tests](http://arquillian.org/)
+[Arquillian ¬∑ Write Real Tests](http://arquillian.org/)
 
 * So you can rule your code. Not the bugs.  No more mocks. No more container lifecycle and deployment hassles. Just real tests!
 
@@ -119,7 +119,7 @@ also:
 open platform for developers and sysadmins:
 [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/what-docker)
 
-* Docker is the worldís leading software container platform. Developers use Docker to eliminate ìworks on my machineî problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
+* Docker is the world‚Äôs leading software container platform. Developers use Docker to eliminate ‚Äúworks on my machine‚Äù problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
 
 #### Vagrant
 open-source software product:
@@ -140,7 +140,7 @@ also:
 
 #### MindMup
 mind mapping:
-(MindMup 2)[https://drive.mindmup.com/]
+[MindMup 2](https://drive.mindmup.com/
 
 * Zero-friction mind mapping, tightly integrated with Google Apps
 
