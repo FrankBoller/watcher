@@ -22,14 +22,13 @@ This overview is intended as a study guide.
             * example: *git clone https://github.com/spring-guides/gs-serving-web-content.git*
             * 1st, just run a complete working sample
                 * cd gs-serving-web-content/complete
-                * # build and test
+                * build and test
                     * type: mvn test
-                * # run spring-boot with Tomcat in background
+                * run spring-boot with Tomcat in background
                     * type: mvn spring-boot:run | grep -v 'DEBUG\|INFO' &
-                * # curl localhost:8080/greeting
+                * make rest call on command line
                     * type: curl localhost:8080/greeting
-                    * ```
-                        <!DOCTYPE HTML>
+                    * output: ``` <!DOCTYPE HTML>
 
                         <html>
                         <head>
@@ -39,6 +38,5 @@ This overview is intended as a study guide.
                         <body>
                             <p>Hello, World!</p>
                         </body>
-                        </html>
-                      ```
+                        </html> ```
 
