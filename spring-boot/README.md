@@ -28,16 +28,16 @@ This overview is intended as a study guide.
                     * type: mvn spring-boot:run | grep -v 'DEBUG\|INFO' &
                 * make rest call on command line
                     * type: curl localhost:8080/greeting
-                    * ``` <!DOCTYPE HTML>
+``` <!DOCTYPE HTML>
 
-                        <html>
-                        <head>
-                            <title>Getting Started: Serving Web Content</title>
-                            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-                        </head>
-                        <body>
-                            <p>Hello, World!</p>
-                        </body>
-                        </html>
-                    ```
+    <html>
+    <head>
+        <title>Getting Started: Serving Web Content</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <p>Hello, World!</p>
+    </body>
+    </html>
+```
 
