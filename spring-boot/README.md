@@ -21,10 +21,12 @@ This overview is intended as a study guide.
         * try this example. First clone, build, test, and run a complete working sample
             * type **git clone https://github.com/spring-guides/gs-serving-web-content.git**
             * **cd gs-serving-web-content/complete**
-            * build and test
+            * build, test and run spring-boot with Tomcat in background
                 * type: **mvn test**
-            * run spring-boot with Tomcat in background
                 * type: **mvn spring-boot:run | grep -v 'DEBUG\|INFO' &**
+            * **OR** build, test and package into uber-jar and run
+                * type: **mvn package**
+                * type: **java -jar target/gs-serving-web-content-0.1.0.jar**
             * make rest call on command line
                 * type: **curl localhost:8080/greeting**
                 * ``` <!DOCTYPE HTML>
@@ -39,7 +41,7 @@ This overview is intended as a study guide.
                     </html>
                 ```
         * next, create this same example 'from scratch'.
-            * ** cd ../initial
+            * ** cd ../initial **
             * follow directions from **[gs-serving-web-content#create-a-web-controller](https://github.com/spring-guides/gs-serving-web-content#create-a-web-controller)**
-            * build and test -> run spring-boot -> run spring-boot -> make rest call in browser and/or command line
+            * build and test -> run spring-boot -> make rest call in browser and/or command line
 
