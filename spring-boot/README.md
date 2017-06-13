@@ -28,8 +28,7 @@ This overview is intended as a study guide.
                     * type: mvn spring-boot:run | grep -v 'DEBUG\|INFO' &
                 * make rest call on command line
                     * type: curl localhost:8080/greeting
-                    * output:
-                    ``` <!DOCTYPE HTML>
+                    * ``` <!DOCTYPE HTML>
 
                         <html>
                         <head>
