@@ -16,11 +16,11 @@ This overview is intended as a study guide.
         * Grab metadata in text format (try: **curl https://start.spring.io**)
         * Grab metadata in json format (try: **curl -H 'Accept: application/json' https://start.spring.io**)
         * Metadata exposes a rich API for creating spring-boot with many dependencies and options
-    * [GitHub: gs-serving-web-content](https://github.com/spring-guides): Learn how to create a web page with Spring MVC.
+    * [GitHub: gs-serving-web-content](https://github.com/spring-guides/gs-serving-web-content): Learn how to create a web page with Spring MVC.
         * this is one-of-many projects from the Guides
-        * example: **git clone https://github.com/spring-guides/gs-serving-web-content.git**
-        * 1st, just run a complete working sample
-            * cd gs-serving-web-content/complete
+        * try this example. First clone, build, test, and run a complete working sample
+            * type **git clone https://github.com/spring-guides/gs-serving-web-content.git**
+            * **cd gs-serving-web-content/complete**
             * build and test
                 * type: **mvn test**
             * run spring-boot with Tomcat in background
@@ -28,7 +28,6 @@ This overview is intended as a study guide.
             * make rest call on command line
                 * type: **curl localhost:8080/greeting**
                 * ``` <!DOCTYPE HTML>
-
                     <html>
                     <head>
                         <title>Getting Started: Serving Web Content</title>
@@ -39,4 +38,8 @@ This overview is intended as a study guide.
                     </body>
                     </html>
                 ```
+        * next, create this same example 'from scratch'.
+            * ** cd ../initial
+            * follow directions from **[gs-serving-web-content#create-a-web-controller](https://github.com/spring-guides/gs-serving-web-content#create-a-web-controller)**
+            * build and test -> run spring-boot -> run spring-boot -> make rest call in browser and/or command line
 
