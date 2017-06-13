@@ -28,7 +28,8 @@ This overview is intended as a study guide.
                     * type: mvn spring-boot:run | grep -v 'DEBUG\|INFO' &
                 * make rest call on command line
                     * type: curl localhost:8080/greeting
-                    * output: ``` <!DOCTYPE HTML>
+                    * output:
+                    ``` <!DOCTYPE HTML>
 
                         <html>
                         <head>
@@ -38,5 +39,6 @@ This overview is intended as a study guide.
                         <body>
                             <p>Hello, World!</p>
                         </body>
-                        </html> ```
+                        </html>
+                    ```
 
