@@ -51,7 +51,8 @@ software by doing it and helping others do it.
 
 #### kanban vs. scrum [(toc)](#toc)
 The question of which work method(s) works best isn’t easy
-[What are the differences?](https://leankit.com/learn/kanban/kanban-vs-scrum/): Which agile software development methodology is better suited...
+* [What are the differences?](https://leankit.com/learn/kanban/kanban-vs-scrum/): Which agile software development methodology is better suited...
+
     concern                        | Kanban                                           | Scrum
     ---                            | ---                                              | ---
     Roles & Responsibilities       | no pre-defined roles for a team                  | predefined roles
