@@ -29,10 +29,6 @@ This is a place for **spectators**
     * [scala](#scala-toc)
     * [polymer](#polymer-toc)
 
-***
-
----
-
 ___
 ## Philosophy / Development Methodology
 
@@ -43,14 +39,11 @@ time boxed, iterative approach to software delivery:
 * We are uncovering better ways of developing
 software by doing it and helping others do it.
 
-agile approach
-![agileApproach.jpg](/images/agileApproach.jpg "agile Approach") 
-
-development methodology
-![devMethodology.png](/images/devMethodology.png "development methodology")
-
-start a new project: 
 ![newProjectMup.png](/images/newProjectMup.png "new ProjectMup")
+
+BDD
+---
+![devMethodology.png](/images/devMethodology.png "development methodology")
 
 ___
 ## Framework
@@ -118,6 +111,8 @@ end to end development platform:
 [fabric8: open source Integrated Development Platform for Kubernetes](https://fabric8.io/)
 
 * fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via [Continuous Delivery pipelines](http://fabric8.io/guide/cdelivery.html) then [run and manage them](http://fabric8.io/guide/fabric8DevOps.html) with Continuous Improvement and [ChatOps](http://fabric8.io/guide/chat.html)
+
+![fabric8.create-app.png](/images/fabric8.create-app.png "fabric8 create-app")
 
 ___
 ## Tool
