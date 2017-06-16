@@ -7,24 +7,23 @@ This is a place for **spectators**
 
 [//]: <> (This is a comment)
 ### Philosopy, Frameworks, Libraries, Code Tools and Artifacts
-* [Agile](#agile)
-* [DevOps](#devops)
-* [Fabric8](#fabric8)
-* [maven](#maven)
-* [jenkins](#jenkins)
-* [jmh](#jmh)
-* [Arquillian ](#arquillian)
-* [Slack](#slack)
-* [Virtualbox](#virtualbox)
-* [Docker](#docker)
-* [Vagrant](#vagrant)
-* [Polymer](#polymer)
-* [MindMup](#mindMup)
+* [agile](#agile-toc)
+* [devops](#devops-toc)
+* [fabric8](#fabric8-toc)
+* [maven](#maven-toc)
+* [jenkins](#jenkins-toc)
+* [jmh](#jmh-toc)
+* [arquillian](#arquillian-toc)
+* [slack](#slack-toc)
+* [virtualbox](#virtualbox-toc)
+* [docker](#docker-toc)
+* [vagrant](#vagrant-toc)
+* [polymer](#polymer-toc)
+* [mindmup](#mindmup-toc)
 
 ----
 
-[(toc)](#toc)
-#### Agile
+#### Agile [(toc)](#toc)
 time boxed, iterative approach to software delivery:
 [Manifesto for Agile Software Development](http://agilemanifesto.org/) and [Principles behind the Agile Manifesto](http://agilemanifesto.org/principles.html)
 
@@ -35,29 +34,25 @@ agile approach
 ----
 ![agileApproach.jpg](/images/agileApproach.jpg "agile Approach")
 
-[(toc)](#toc)
-#### DevOps
+#### DevOps [(toc)](#toc)
 set of practices:
 (DevOps - Wikipedia)[https://en.wikipedia.org/wiki/DevOps]
 
 * DevOps (a clipped compound of "software DEVelopment" and "information technology OPerationS") is a term used to refer to a set of practices that emphasize the collaboration and communication of both software developers and information technology (IT) professionals while automating the process of software delivery and infrastructure changes. It aims at establishing a culture and environment where building, testing, and releasing software can happen rapidly, frequently, and more reliably.
 
-[(toc)](#toc)
-#### Fabric8
+#### Fabric8 [(toc)](#toc)
 end to end development platform:
 [fabric8: open source Integrated Development Platform for Kubernetes](https://fabric8.io/)
 
 * fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via [Continuous Delivery pipelines](http://fabric8.io/guide/cdelivery.html) then [run and manage them](http://fabric8.io/guide/fabric8DevOps.html) with Continuous Improvement and [ChatOps](http://fabric8.io/guide/chat.html)
 
-[(toc)](#toc)
-#### maven
+#### maven [(toc)](#toc)
 project management:
 [Code Tools: maven](https://maven.apache.org/)  
 
 * Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
-[(toc)](#toc)
-#### jenkins
+#### jenkins [(toc)](#toc)
 open source automation server:
 [Jenkins, Build great things at any scale](https://jenkins.io/)
 
@@ -68,8 +63,7 @@ also:
 
 * jenkins.io. Jenkins is an open source automation server written in Java. The project was forked from Hudson after a dispute with Oracle. ... It is a server-based system running in a servlet container such as Apache Tomcat.
 
-[(toc)](#toc)
-#### jmh
+#### jmh [(toc)](#toc)
 test harness:
 [Code Tools: jmh](http://openjdk.java.net/projects/code-tools/jmh/) 
 
@@ -80,8 +74,7 @@ also:
 
 * various tips on improving performance of your Java code
 
-[(toc)](#toc)
-#### Arquillian
+#### Arquillian [(toc)](#toc)
 integration and functional testing platform:
 [Dan Allen on Arquillian Testing Framework](https://www.infoq.com/articles/dan-allen-arquillian-framework)
 
@@ -102,8 +95,7 @@ development Methodology
 ![devMethodology.png](/images/devMethodology.png "development Methodology")
  
 
-[(toc)](#toc)
-#### Slack
+#### Slack [(toc)](#toc)
 team collaboration tool:
 [Slack: Where work happens](https://slack.com/)
 
@@ -114,8 +106,7 @@ also:
 
 * slack.com. Slack is a cloud-based team collaboration tool. The name is an acronym for "Searchable Log of All Conversation and Knowledge".
 
-[(toc)](#toc)
-#### Virtualbox
+#### Virtualbox [(toc)](#toc)
 software virtualization package:
 [Oracle VM VirtualBox](https://www.virtualbox.org/)
 
@@ -126,22 +117,19 @@ also:
 
 * A VirtualBox or VB is a software virtualization package that installs on an operating system as an application. VirtualBox allows additional operating systems to be installed on it, as a Guest OS, and run in a virtual environment. In 2010, VirtualBox was the most popular virtualization software application.
 
-[(toc)](#toc)
-#### Docker
+#### Docker [(toc)](#toc)
 open platform for developers and sysadmins:
 [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/what-docker)
 
 * Docker is the world’s leading software container platform. Developers use Docker to eliminate “works on my machine” problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
 
-[(toc)](#toc)
-#### Vagrant
+#### Vagrant [(toc)](#toc)
 open-source software product:
 [Introduction to Vagrant](https://www.vagrantup.com/intro/index.html)
 
 * Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
 
-[(toc)](#toc)
-#### Polymer
+#### Polymer [(toc)](#toc)
 library for creating Web Components:
 [Welcome - Polymer Project](https://www.polymer-project.org/)
 
@@ -152,9 +140,7 @@ also:
 
 * Angular is a complete framework for building webapps, whereas Polymer is a library for creating Web Components. Those components, however, can then be used to build a webapp. Angular has high-level APIs for things like services, routing, server communication and the like.
 
-[(toc)](#toc)
-mind mapping:
-#### MindMup
+#### MindMup [(toc)](#toc)
 [MindMup 2](https://drive.mindmup.com/)
 
 * Zero-friction mind mapping, tightly integrated with Google Apps
