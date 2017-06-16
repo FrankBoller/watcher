@@ -41,6 +41,7 @@ time boxed, iterative approach to software delivery:
 software by doing it and helping others do it.
 
 * starting new projects
+---
 ![newProjectMup.png](/images/newProjectMup.png "new ProjectMup")
 
 * [Test-driven development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development): relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only.
