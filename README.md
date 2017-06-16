@@ -163,6 +163,7 @@ project management:
 [Code Tools: taiga](https://taiga.io/)
 
 * Taiga is a project management platform for agile developers & designers and project managers who want a beautiful tool that makes work truly enjoyable.
+    * [setup-taiga-vagrant](http://taigaio.github.io/taiga-doc/dist/setup-alternatives.html): taiga-scripts primarily follows the standard installation process, but makes it more automatic
 
 #### vagrant [(toc)](#toc)
 open-source software product:
