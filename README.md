@@ -41,9 +41,12 @@ software by doing it and helping others do it.
 
 ![newProjectMup.png](/images/newProjectMup.png "new ProjectMup")
 
-* BDD
+* [Test-driven development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development): relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only.
 ![devMethodology.png](/images/devMethodology.png "development methodology")
 
+* [Behavior-driven development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development): n software engineering, behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD)
+
+* [tdd vs bdd](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/): BDD can, and should be, used together with TDD and unit testing methods
 ___
 ## Framework
 
