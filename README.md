@@ -41,7 +41,7 @@ software by doing it and helping others do it.
 
 ![newProjectMup.png](/images/newProjectMup.png "new ProjectMup")
 
-* BDD ___
+* BDD
 ![devMethodology.png](/images/devMethodology.png "development methodology")
 
 ___
