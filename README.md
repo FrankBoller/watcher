@@ -112,8 +112,8 @@ end to end development platform:
 
 * fabric8 is an end to end development platform spanning ideation to production for the creation of cloud native applications and microservices. You can build, test and deploy your applications via [Continuous Delivery pipelines](http://fabric8.io/guide/cdelivery.html) then [run and manage them](http://fabric8.io/guide/fabric8DevOps.html) with Continuous Improvement and [ChatOps](http://fabric8.io/guide/chat.html)
 
-[//]: <> ( * [<img src="/images/fabric8.create-app.png" width="1161" height="963" />](https://fabric8.io/guide/console.html))
-* [<img src="/images/fabric8.create-app.png" width="1161" height="963" />](https://fabric8.io/guide/console.html)
+<!-- * [<img src="/images/fabric8.create-app.png" width="1161" height="963" />](https://fabric8.io/guide/console.html) -->
+* [<img src="/images/fabric8.create-app.png" width="800" height="667" />](https://fabric8.io/guide/console.html)
 
 ___
 ## Tool
