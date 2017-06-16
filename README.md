@@ -7,8 +7,9 @@ This is a place for **spectators**
 
 [//]: <> (This is a comment)
 ### Philosopy, Frameworks, Libraries, Code Tools and Artifacts
-* Philosophy
+* Philosophy / Methodology
     * [agile](#agile-toc)
+    * [kanban vs. scrum](#kanban-vs-scrum-toc)
 * Framework
     * [arquillian](#arquillian-toc)
     * [devops](#devops-toc)
@@ -48,7 +49,7 @@ software by doing it and helping others do it.
 
 * [tdd vs bdd](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/): BDD can, and should be, used together with TDD and unit testing methods
 
-#### Kanban vs. Scrum [(toc)](#toc)
+#### kanban vs. scrum [(toc)](#toc)
 The question of which work method(s) works best isn’t easy
 [What are the differences?](https://leankit.com/learn/kanban/kanban-vs-scrum/): Which agile software development methodology is better suited...
     concern                        | Kanban                                           | Scrum
