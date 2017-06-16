@@ -24,14 +24,14 @@ This overview is intended as a study guide.
             * build, test and run spring-boot with Tomcat in background
                 * type: **mvn test**
                 * type: **mvn spring-boot:run | grep -v 'DEBUG\|INFO' &** (or don't use '&' and run in separate window)
-                * note: using bash shell in using [Cygwin](https://www.cygwin.com) and/or [Linux](https://www.ubuntu.com)
+                * note: using bash shell from [Cygwin](https://www.cygwin.com) and/or [Linux](https://www.ubuntu.com)
                     * grep will remove log messages with level DEBUG or INFO
                     * '&' will run task in background, which will continue running until killed
             * **OR** build, test and package into uber-jar and run
                 * type: **mvn package**
                 * type: **java -jar target/gs-serving-web-content-0.1.0.jar**
             * make rest call on command line
-                * type: **curl localhost:8080/greeting**
+                * type: **curl localhost:8080/greeting** (or use URL in browser)
                 * ``` <!DOCTYPE HTML>
                     <html>
                     <head>
