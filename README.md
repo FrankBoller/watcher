@@ -47,6 +47,19 @@ software by doing it and helping others do it.
 * [Behavior-driven development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development): n software engineering, behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD)
 
 * [tdd vs bdd](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/): BDD can, and should be, used together with TDD and unit testing methods
+
+#### Kanban vs. Scrum [(toc)](#toc)
+The question of which work method(s) works best isn’t easy
+[What are the differences?](https://leankit.com/learn/kanban/kanban-vs-scrum/): Which agile software development methodology is better suited...
+    concern                        | Kanban                                           | Scrum
+    ---                            | ---                                              | ---
+    Roles & Responsibilities       | no pre-defined roles for a team                  | predefined roles
+    Due Dates / Delivery Timelines | continious delivery                              | sprints define deliverables
+    Delegation & Prioritization    | team members pull tasks                          | entire batch pulled each iteration
+    Modifications / Changes        | changes can be made mid-stream                   | Changes mid-sprint discouraged
+    Measurement of Productivity    | cycle time                                       | velocity through sprints
+    Best Applications              | Best for projects with widely-varying priorities | Best for teams with stable priorities
+
 ___
 ## Framework
 
