@@ -23,7 +23,10 @@ This overview is intended as a study guide.
             * **cd gs-serving-web-content/complete**
             * build, test and run spring-boot with Tomcat in background
                 * type: **mvn test**
-                * type: **mvn spring-boot:run | grep -v 'DEBUG\|INFO' &**
+                * type: **mvn spring-boot:run | grep -v 'DEBUG\|INFO' &** (or don't use '&' and run in separate window)
+                * note: using bash shell in using [Cygwin](https://www.cygwin.com) and/or [Linux](https://www.ubuntu.com)
+                    * grep will remove log messages with level DEBUG or INFO
+                    * '&' will run task in background, which will continue running until killed
             * **OR** build, test and package into uber-jar and run
                 * type: **mvn package**
                 * type: **java -jar target/gs-serving-web-content-0.1.0.jar**
@@ -38,8 +41,8 @@ This overview is intended as a study guide.
                     <body>
                         <p>Hello, World!</p>
                     </body>
-                    </html>
-                ```
+                    </html> ```
+                * when finished, type: kill %1 (for example) or kill in task manager
         * next, create this same example 'from scratch'.
             * ** cd ../initial **
             * follow directions from **[gs-serving-web-content#create-a-web-controller](https://github.com/spring-guides/gs-serving-web-content#create-a-web-controller)**
