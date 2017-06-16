@@ -40,6 +40,7 @@ time boxed, iterative approach to software delivery:
 * We are uncovering better ways of developing
 software by doing it and helping others do it.
 
+* starting new projects
 ![newProjectMup.png](/images/newProjectMup.png "new ProjectMup")
 
 * [Test-driven development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development): relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved to pass the new tests, only.
@@ -53,14 +54,14 @@ software by doing it and helping others do it.
 The question of which work method(s) works best isn’t easy
 * [What are the differences?](https://leankit.com/learn/kanban/kanban-vs-scrum/): Which agile software development methodology is better suited...
 
-    concern                        | Kanban                                           | Scrum
+    concern                        | kanban                                           | scrum
     ---                            | ---                                              | ---
-    Roles & Responsibilities       | no pre-defined roles for a team                  | predefined roles
-    Due Dates / Delivery Timelines | continious delivery                              | sprints define deliverables
-    Delegation & Prioritization    | team members pull tasks                          | entire batch pulled each iteration
-    Modifications / Changes        | changes can be made mid-stream                   | Changes mid-sprint discouraged
-    Measurement of Productivity    | cycle time                                       | velocity through sprints
-    Best Applications              | Best for projects with widely-varying priorities | Best for teams with stable priorities
+    roles & responsibilities       | no pre-defined roles for a team                  | predefined roles
+    due dates / delivery timelines | continious delivery                              | sprints define deliverables
+    delegation & prioritization    | team members pull tasks                          | entire batch pulled each iteration
+    modifications / changes        | changes can be made mid-stream                   | changes mid-sprint discouraged
+    measurement of productivity    | cycle time                                       | velocity through sprints
+    best applications              | best for projects with widely-varying priorities | best for teams with stable priorities
 
 ___
 ## Framework
