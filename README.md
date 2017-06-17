@@ -40,10 +40,6 @@ time boxed, iterative approach to software delivery:
 * We are uncovering better ways of developing
 software by doing it and helping others do it.
 
-<!--   
-![newProjectMup.png](/images/newProjectMup.png "new ProjectMup")
-    <img src="/images/newProjectMup.png" width="300" height="400" />
--->
 * starting new projects
 ![newProjectMup.png](/images/startNewProject.png "startNewProject.png")
 
@@ -66,6 +62,18 @@ The question of which work method(s) works best isn’t easy
     modifications / changes        | changes can be made mid-stream                   | changes mid-sprint discouraged
     measurement of productivity    | cycle time                                       | velocity through sprints
     best applications              | best for projects with widely-varying priorities | best for teams with stable priorities
+
+#### user story vs job story [(toc)](#toc)
+Too many assumptions are dangerous
+
+[Designing features using Job Stories](https://blog.intercom.com/using-job-stories-design-features-ui-ux/): Personas and User Stories made sense when customers and product teams were far from each other. That’s no longer the case
+
+* Traditionally, who the customer was and what they needed fell within the responsibility of marketing, business development, or even sales. After this information was gathered, it would be synthesized into a portable format and then pitched over the fence to a product development team, who was responsible for building the product
+
+[Replacing The User Story With The Job Story](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27):
+
+* We frame every design problem in a Job, focusing on the triggering event or situation, the motivation and goal, and the intended outcome:
+When ... , I want to ... , so I can ... .
 
 ___
 ## Framework
