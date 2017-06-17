@@ -48,7 +48,7 @@ produces:
 
 example (with optional flags) {run today} :  
 *$ java -jar target/benchmarks.jar -f 1 -wi 3 -i 2 -tu us -o Factorial_fjb04.log 04
-produced file: [Factorial_fjb04.log](https://github.com/FrankBoller/watcher/blob/master/myJmh/Factorial_fjb04.log)  
+produced file: [Factorial_fjb04.log](https://github.com/frankboller/watcher/blob/master/myJmh/Factorial_fjb04.log)  
 
 given:  
 *$ tail -40 Factorial_fjb04.log*  

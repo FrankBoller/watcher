@@ -10,7 +10,7 @@ This is a place for **spectators**
 * Philosophy / Methodology
     * [agile](#agile-toc)
     * [kanban vs. scrum](#kanban-vs-scrum-toc)
-    * [user story vs job story](#user-story-vs-job-story-vs-scrum-toc)
+    * [user story vs job story](#user-story-vs-job-story-toc)
 * Framework
     * [arquillian](#arquillian-toc)
     * [devops](#devops-toc)
