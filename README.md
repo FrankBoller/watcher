@@ -52,7 +52,7 @@ software by doing it and helping others do it.
 * [tdd vs bdd](https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/): BDD can, and should be, used together with TDD and unit testing methods
 
 #### kanban vs. scrum [(toc)](#toc)
-The question of which work method(s) works best isn�t easy
+The question of which work method(s) works best isn’t easy
 * [What are the differences?](https://leankit.com/learn/kanban/kanban-vs-scrum/): Which agile software development methodology is better suited...
 
     concern                        | kanban                                           | scrum
@@ -67,7 +67,7 @@ The question of which work method(s) works best isn�t easy
 #### user story vs job story [(toc)](#toc)
 Too many assumptions are dangerous
 
-[Designing features using Job Stories](https://blog.intercom.com/using-job-stories-design-features-ui-ux/): Personas and User Stories made sense when customers and product teams were far from each other. That�s no longer the case
+[Designing features using Job Stories](https://blog.intercom.com/using-job-stories-design-features-ui-ux/): Personas and User Stories made sense when customers and product teams were far from each other. That’s no longer the case
 
 * Traditionally, who the customer was and what they needed fell within the responsibility of marketing, business development, or even sales. After this information was gathered, it would be synthesized into a portable format and then pitched over the fence to a product development team, who was responsible for building the product
 
@@ -86,7 +86,7 @@ integration and functional testing platform:
 * Arquillian is an integration and functional testing platform that can be used for Java middleware testing. With the main goal of making integration (and functional) tests as simple to write as unit tests, it brings the tests to the runtime environment, freeing developers from managing the runtime from within the test.
 
 also:
-[Arquillian · Write Real Tests](http://arquillian.org/)
+[Arquillian Â· Write Real Tests](http://arquillian.org/)
 
 * So you can rule your code. Not the bugs.  No more mocks. No more container lifecycle and deployment hassles. Just real tests!
 
@@ -105,7 +105,7 @@ set of practices:
 open platform for developers and sysadmins:
 [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/what-docker)
 
-* Docker is the world’s leading software container platform. Developers use Docker to eliminate “works on my machine” problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
+* Docker is the world's leading software container platform. Developers use Docker to eliminate â€śworks on my machineâ€ť problems when collaborating on code with co-workers. Operators use Docker to run and manage apps side-by-side in isolated containers to get better compute density. Enterprises use Docker to build agile software delivery pipelines to ship new features faster, more securely and with confidence for both Linux and Windows Server apps.
 
 #### jmh [(toc)](#toc)
 test harness:
