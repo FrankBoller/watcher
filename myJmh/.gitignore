@@ -1,11 +1,16 @@
-# Eclipse
-.classpath
-.project
-.settings/
+# Operating System Files
 
-# Maven
-.mvn/timing.properties
-buildNumber.properties
+*#
+*.DS_Store
+*~
+.#*
+Thumbs.db
+
+# Build Artifacts
+
+.gradle/
+bin/
+build/
 dependency-reduced-pom.xml
 log/
 pom.xml.next
@@ -15,5 +20,12 @@ pom.xml.versionsBackup
 release.properties
 target/
 
-# Mac
-.DS_Store
+# Eclipse Project Files
+
+.classpath
+.project
+.settings/
+
+# Maven
+.mvn/timing.properties
+buildNumber.properties

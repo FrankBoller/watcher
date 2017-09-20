@@ -1,20 +1,24 @@
 # Operating System Files
 
-*.DS_Store
-Thumbs.db
-*.sw?
-.#*
 *#
+*.DS_Store
 *~
-*.sublime-*
+.#*
+Thumbs.db
 
 # Build Artifacts
 
 .gradle/
-build/
-target/
 bin/
+build/
 dependency-reduced-pom.xml
+log/
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.tag
+pom.xml.versionsBackup
+release.properties
+target/
 
 # Eclipse Project Files
 
@@ -22,11 +26,6 @@ dependency-reduced-pom.xml
 .project
 .settings/
 
-# IntelliJ IDEA Files
-
-*.iml
-*.ipr
-*.iws
-*.idea
-
-README.html
+# Maven
+.mvn/timing.properties
+buildNumber.properties
