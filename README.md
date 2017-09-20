@@ -3,7 +3,7 @@
 
 This is a place for **spectators**
 
-* intended to showcase technology implementation samples, implementations, bugs, links and documentation
+* intended to showcase technology implementation samples, bugs, links and documentation
 
 [//]: <> (This is a comment)
 ### Philosopy, Frameworks, Libraries, Code Tools and Artifacts
