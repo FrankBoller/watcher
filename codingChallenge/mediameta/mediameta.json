@@ -1,0 +1,326 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "mediameta is a simple API to create, retrieve, update and delete titles metadata",
+    "version" : "1.0.0",
+    "title" : "mediameta API",
+    "contact" : {
+      "email" : "frankboller@hotmail.com"
+    },
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/frankboller/mediameta/1.0.0",
+  "tags" : [ {
+    "name" : "admins",
+    "description" : "Secured Admin-only calls"
+  }, {
+    "name" : "users",
+    "description" : "Operations available to regular users"
+  } ],
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/title" : {
+      "get" : {
+        "tags" : [ "users" ],
+        "summary" : "searches for title(s)",
+        "description" : "By passing in the appropriate options, you can search for\navailable titles in the system\n",
+        "operationId" : "searchTitleItem",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "type",
+          "in" : "query",
+          "description" : "select one of type: bonus, episode, season, tvseries, or feature",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "searchString",
+          "in" : "query",
+          "description" : "pass an optional search string",
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/Title"
+              }
+            }
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "admins" ],
+        "summary" : "adds a title of a given type",
+        "description" : "Adds a title to the system",
+        "operationId" : "addTitleItem",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "titleItem",
+          "description" : "feature to add",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/Title"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "feature created"
+          },
+          "400" : {
+            "description" : "invalid input, object invalid"
+          },
+          "409" : {
+            "description" : "an existing feature already exists"
+          }
+        }
+      },
+      "put" : {
+        "tags" : [ "admins" ],
+        "summary" : "update an existing title",
+        "operationId" : "updateTitleItem",
+        "consumes" : [ "application/json", "application/x-www-form-urlencoded" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "type",
+          "in" : "header",
+          "description" : "one of: bonus, feature, tvseries, season, or episode",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "parentTitle",
+          "in" : "header",
+          "description" : "",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "jsonString",
+          "in" : "formData",
+          "description" : "the json string used for update",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "400" : {
+            "description" : "invalid object"
+          },
+          "404" : {
+            "description" : "object not found"
+          },
+          "405" : {
+            "description" : "validation exception"
+          }
+        }
+      },
+      "delete" : {
+        "tags" : [ "admins" ],
+        "summary" : "delete an existing title",
+        "operationId" : "deleteTitleItem",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "type",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "name",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "405" : {
+            "description" : "invalid input"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Mediameta" : {
+      "type" : "object",
+      "required" : [ "type" ],
+      "properties" : {
+        "type" : {
+          "type" : "string",
+          "example" : "one of: bonus, feature, tvseries, season, or episode"
+        },
+        "bonuses" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Bonus"
+          }
+        },
+        "features" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Feature"
+          }
+        },
+        "tvseries" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/TvSeries"
+          }
+        },
+        "seasons" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Season"
+          }
+        },
+        "episodes" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Episode"
+          }
+        },
+      }
+    },
+    "Title" : {
+      "type" : "object",
+      "required" : [ "name", "type" ],
+      "discriminator" : "type",
+      "properties" : {
+        "type" : {
+          "type" : "string",
+          "example" : "one of: bonus, feature, tvseries, season, or episode"
+        },
+        "name" : {
+          "type" : "string",
+          "example" : "Frozen"
+        },
+        "description" : {
+          "type" : "string",
+          "example" : "a full description which could be used for searches"
+        },
+        "bonuses" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Bonus"
+          }
+        }
+      }
+    },
+    "Bonus" : {
+      "type" : "object",
+      "required" : [ "duration" ],
+      "properties" : {
+        "type" : {
+          "type" : "string",
+          "example" : "bonus"
+        },
+        "name" : {
+          "type" : "string",
+          "example" : "dwarf meets mickey"
+        },
+        "description" : {
+          "type" : "string",
+          "example" : "short clip: dwarf visits the park"
+        },
+        "parentTitle" : {
+          "type" : "string",
+          "example" : "Snow White"
+        },
+        "duration" : {
+          "type" : "string",
+          "example" : "12 min"
+        }
+      }
+    },
+    "Episode" : {
+      "allOf" : [ {
+        "$ref" : "#/definitions/Title"
+      }, {
+        "type" : "object"
+      }, {
+        "properties" : {
+          "releaseDate" : {
+            "type" : "string",
+            "example" : "03/23/1992"
+          },
+          "parentTitle" : {
+            "type" : "string",
+            "example" : "Herstory in the Making"
+          },
+          "duration" : {
+            "type" : "string",
+            "example" : "51 min"
+          }
+        }
+      } ]
+    },
+    "Season" : {
+      "allOf" : [ {
+        "$ref" : "#/definitions/Title"
+      }, {
+        "type" : "object"
+      }, {
+        "properties" : {
+          "releaseDate" : {
+            "type" : "string",
+            "example" : "09/22/2004"
+          },
+          "parentTitle" : {
+            "type" : "string",
+            "example" : "Adventures in Wonderland"
+          },
+          "episodes" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/definitions/Episode"
+            }
+          }
+        }
+      } ]
+    },
+    "TvSeries" : {
+      "allOf" : [ {
+        "$ref" : "#/definitions/Title"
+      }, {
+        "type" : "object"
+      }, {
+        "properties" : {
+          "releaseDate" : {
+            "type" : "string",
+            "example" : "11/27/2013"
+          },
+          "seasons" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/definitions/Season"
+            }
+          }
+        }
+      } ]
+    },
+    "Feature" : {
+      "properties" : {
+        "theatricalReleaseDate" : {
+          "type" : "string",
+          "example" : "11/27/2013"
+        },
+        "duration" : {
+          "type" : "string",
+          "example" : "102 min"
+        }
+      },
+      "allOf" : [ {
+        "$ref" : "#/definitions/Title"
+      }, {
+        "type" : "object"
+      } ],
+    }
+  }
+}
