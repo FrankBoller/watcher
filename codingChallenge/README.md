@@ -38,7 +38,8 @@ The project can be built as follows
     * check the console to see the java model toString() output
     * the "curl" output is also shown
         * curl -X GET --header 'Accept: application/json' 'http://localhost:8080/mediameta/title'
-        * try this in a new console
+        * try this in a new console, output like:
+            * [{"type":"Feature","theatricalReleaseDate":"02/11/1950","duration":"200 min","name":"dummy feature","description":"shows a dummy feature","bonuses":[{"type":"Bonus","type":"Bonus","name":"dummy bonus 1","description":"shows a dummy bonus 1","parentTitle":"dummy feature","duration":"5 minute"},{"type":"Bonus","type":"Bonus","name":"dummy bonus 2","description":"shows a dummy bonus 2","parentTitle":"dummy feature","duration":"6 minute"}]}]
 * for the next pass,  enter into the "type" widgit:  feature
     * click "Try it out!" button.
         * as shown the curl is now
