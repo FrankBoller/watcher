@@ -43,3 +43,6 @@ The project can be built as follows
             * curl -X GET --header 'Accept: application/json' 'http://localhost:8080/mediameta/title?type=feature'
         * try this in a new console
 * for the next pass,  enter into the "type" widgit:  tvseries
+
+* starting new projects
+![newProjectMup.png](/images/startNewProject.png "startNewProject.png")
