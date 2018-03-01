@@ -34,7 +34,7 @@ The project can be built as follows
         * or: http://localhost:8080/mediameta/swagger-ui.html#!/users/searchTitleItem
     * some example value for the model will be shown
         * for the first pass, do not enter "type" or "searchString", just click "Try it out!" button.
-    * ![mediameta.no.filter.png*](/images/mediameta.no.filter.png* "mediameta.no.filter.png*")
+    * ![mediameta.no.filter.png](/images/mediameta.no.filter.png "mediameta.no.filter.png")
     * check the console to see the java model toString() output
     * the "curl" output is also shown
         * curl -X GET --header 'Accept: application/json' 'http://localhost:8080/mediameta/title'
