@@ -27,14 +27,14 @@ The project can be built as follows
     * logging is sent to stdout
 * run the local app in a browser: http://localhost:8080/mediameta/
 * the api page will be shown
-    * ![mediameta.1.png](/images/mediameta.1.png "mediameta.1.png")
+    * ![mediameta.1.png](/codingChallenge/images/mediameta.1.png "mediameta.1.png")
     * click on the "users" link 
         * or: http://localhost:8080/mediameta/swagger-ui.html#!/users
     * click on the "GET" button
         * or: http://localhost:8080/mediameta/swagger-ui.html#!/users/searchTitleItem
     * some example value for the model will be shown
         * for the first pass, do not enter "type" or "searchString", just click "Try it out!" button.
-    * ![mediameta.no.filter.png](/images/mediameta.no.filter.png "mediameta.no.filter.png")
+    * ![mediameta.no.filter.png](/codingChallenge/images/mediameta.no.filter.png "mediameta.no.filter.png")
     * check the console to see the java model toString() output
     * the "curl" output is also shown
         * curl -X GET --header 'Accept: application/json' 'http://localhost:8080/mediameta/title'
